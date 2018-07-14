@@ -1,5 +1,5 @@
 # CodeExamples
 Used for learning programming language syntax. 
 
-    * JAVA
-    * CPP
+* JAVA
+* CPP
