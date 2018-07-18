@@ -34,7 +34,7 @@ class PrimeNumber
     {
         primeNum[0] = 2;
         primeInd = 0;
-        print-prime(0);
+        printPrime(0);
         int n = 3;
         while(primeInd <= maxInd)
         {
