@@ -1,6 +1,7 @@
 class PrimeNumber
 {
-    static int [] primeNum = new int[100];
+    static final int maxInd = 999;
+    static int [] primeNum = new int[maxInd+1];
     static int primeInd;
     static boolean isPrime(int x)
     {
@@ -19,7 +20,7 @@ class PrimeNumber
         }
         return true;
     }
-    static void print-prime(int x)
+    static void printPrime(int x)
     {
         System.out.println
         (
@@ -35,13 +36,13 @@ class PrimeNumber
         primeInd = 0;
         print-prime(0);
         int n = 3;
-        while(primeInd <= 99)
+        while(primeInd <= maxInd)
         {
-            if(isPrimen(n))
+            if(isPrime(n))
             {
                 primeNum[primeInd + 1] = n;
                 primeInd += 1;
-                print-prime(primeInd);
+                printPrime(primeInd);
             }
             n += 1;
         }
