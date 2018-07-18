@@ -25,7 +25,7 @@ class PrimeNumber
         System.out.println
         (
             "primeNum(" + 
-            primeInd +
+            x +
             ") = " +
             primeNum[x]
         );
