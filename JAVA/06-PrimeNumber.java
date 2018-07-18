@@ -36,7 +36,7 @@ class PrimeNumber
         primeInd = 0;
         printPrime(0);
         int n = 3;
-        while(primeInd <= maxInd)
+        while(primeInd < maxInd)
         {
             if(isPrime(n))
             {
