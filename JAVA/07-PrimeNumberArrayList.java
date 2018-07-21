@@ -1,3 +1,5 @@
+// array is created with fixed length.
+// ArrayList class type object is length flexible. The elements number is dynamic. 
 import java.lang.Integer;
 import java.util.ArrayList;
 class PrimeNumberArrayList
